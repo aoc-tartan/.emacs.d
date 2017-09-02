@@ -1,0 +1,75 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sat Sep  2 10:50:24 2017
+;; Desktop file format version 208
+;; Emacs version 25.2.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (22954 50480 899721 0) (desktop . "208") "chenao@AO-2.local" nil nil ((((tty-type . "xterm-256color") (tty . "/dev/tty") (display-type . color) (background-mode . dark) (foreground-color . "#eaeaea") (cursor-color . "#d54e53") (tool-bar-lines . 0) (vertical-scroll-bars) (menu-bar-lines . 0) (background-color . "#000000") (border-color . "#424242") (font . "tty") (height . 50) (width . 150) (modeline . t) (unsplittable) (internal-border-width . 0) (frameset--id . "61B9-3881-913F-8A08") (frameset--mini t) (minibuffer . t)) ((min-height . 4) (min-width . 10) (min-height-ignore . 2) (min-width-ignore . 2) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 4) (min-pixel-width . 10) (min-pixel-height-ignore . 2) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 1) (min-pixel-width-safe . 2)) leaf (pixel-width . 150) (pixel-height . 49) (total-width . 150) (total-height . 49) (normal-height . 1.0) (normal-width . 1.0) (buffer "README.md" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars nil 0 t nil 0 t) (vscroll . 0) (dedicated) (point . 658) (start . 1))))])
+(setq comint-input-ring nil)
+(setq compile-history nil)
+(setq desktop-missing-file-warning nil)
+(setq dired-regexp-history nil)
+(setq extended-command-history nil)
+(setq face-name-history nil)
+(setq file-name-history '("~/.emacs.d/README.md" "~/.emacs.d/init.el" "~/Documents/test.c" "~/.emacs.d/init.el" "~/Documents/test.c" "~/.emacs.d/init.el" "~/.emacs.d/lisp/init-local.el" "~/Documents/test.c" "~/.emacs.d/init.el" "~/Documents/test.c" "~/.emacs.d/lisp/init-local.el" "~/.emacs.d/init.el" "~/.emacs.d/lisp/init-local.el" "~/Documents/test.c" "~/.emacs.d/init.el" "~/Documents/test.c" "~/.emacs.d/lisp/init-local.el" "~/.emacs.d/init.el" "~/.emacs.d/lisp/init-local.el" "~/Documents/test.c" "~/.emacs.d/init.el" "~/Documents/test.c" "~/.emacs.d/lisp/init-local.el" "~/.emacs.d/init.el" "~/Documents/test.c" "~/.emacs.d/init.el" "~/Documents/test.c" "~/.emacs.d/init.el" "~/.emacs.d/org-clock-save.el" "~/.emacs.d/custom.el"))
+(setq grep-find-history nil)
+(setq grep-history nil)
+(setq ido-buffer-history nil)
+(setq ido-last-directory-list nil)
+(setq ido-work-directory-list nil)
+(setq ido-work-file-list nil)
+(setq ivy-history nil)
+(setq minibuffer-history nil)
+(setq org-clock-history nil)
+(setq org-refile-history nil)
+(setq org-tags-history nil)
+(setq query-replace-history nil)
+(setq read-expression-history nil)
+(setq regexp-history nil)
+(setq regexp-search-ring nil)
+(setq register-alist '((48 . "## Similar configs\n\nYou might also want to check out `emacs-starter-kit` and `prelude`.\n\n## Support / issues\n\nIf you hit any problems, please first ensure that you are using the latest version\nof this code, and that you have updated your packages to the most recent available\nversions (see \"Updates\" above). If you still experience problems, go ahead and\n[file an issue on the github project](https://github.com/purcell/emacs.d).\n\n-Steve Purcell\n\n<hr>\n\n[![](http://api.coderwall.com/purcell/endorsecount.png)](http://coderwall.com/purcell)\n\n[![](http://www.linkedin.com/img/webpromo/btn_liprofile_blue_80x15.png)](http://uk.linkedin.com/in/stevepurcell)\n\n[sanityinc.com](http://www.sanityinc.com/)\n\n[@sanityinc](https://twitter.com/)\n# My-emacs-config\n")))
+(setq search-ring nil)
+(setq shell-command-history nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 208
+  "/Users/chenao/.emacs.d/README.md"
+  "README.md"
+  'markdown-mode
+  '(anzu-mode global-auto-revert-mode undo-tree-mode whole-line-or-region-local-mode hes-mode auto-compile-on-load-mode immortal-scratch-mode projectile-mode guide-key-mode company-mode counsel-mode flycheck-mode)
+  658
+  '(2423 nil)
+  nil
+  nil
+  '((tab-width . 4) (buffer-file-coding-system . undecided-unix))
+  '((mark-ring (1619 142))))
+
+(desktop-create-buffer 208
+  "/Users/chenao/Documents/test.c"
+  "test.c"
+  'c-mode
+  '(abbrev-mode anzu-mode global-auto-revert-mode undo-tree-mode whole-line-or-region-local-mode hes-mode whitespace-cleanup-mode auto-compile-on-load-mode immortal-scratch-mode projectile-mode guide-key-mode goto-address-prog-mode paredit-everywhere-mode bug-reference-prog-mode diff-hl-mode symbol-overlay-mode rainbow-delimiters-mode company-mode counsel-mode flycheck-mode)
+  96
+  '(99 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (overwrite-mode))
+  '((mark-ring (96))))
+
+(desktop-create-buffer 208
+  "/Users/chenao/.emacs.d/init.el"
+  "init.el"
+  'emacs-lisp-mode
+  '(eldoc-mode anzu-mode global-auto-revert-mode undo-tree-mode page-break-lines-mode whole-line-or-region-local-mode hes-mode whitespace-cleanup-mode auto-compile-mode auto-compile-on-load-mode immortal-scratch-mode projectile-mode guide-key-mode goto-address-prog-mode paredit-mode bug-reference-prog-mode diff-hl-mode symbol-overlay-mode rainbow-delimiters-mode company-mode counsel-mode flycheck-mode highlight-quoted-mode aggressive-indent-mode redshank-mode elisp-slime-nav-mode)
+  1663
+  '(1802 nil)
+  nil
+  nil
+  '((indent-tabs-mode) (buffer-file-coding-system . utf-8-unix))
+  '((mark-ring (1781 1787 1893 2126 1893 1781 1781 1781 1802 2411))))
+

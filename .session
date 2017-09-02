@@ -1,0 +1,10 @@
+;;; Automatically generated on Sat Sep  2 10:50:24 2017
+;;; Invoked by chenao@AO-2.local using 25.2.1
+(setq-default session-file-alist '(("~/.emacs.d/README.md" 658 2423 1 nil nil 2423 (overwrite-mode)) ("~/.emacs.d/custom.el" 1 nil 1 nil nil 2571 (overwrite-mode)) ("~/.emacs.d/lisp/init-local.el" 85 40 1 nil nil 85 (overwrite-mode)) ("~/Documents/test.c" 96 103 1 nil nil 96 (overwrite-mode))))
+(setq-default file-name-history '("~/.emacs.d/README.md" "~/.emacs.d/init.el" "~/Documents/test.c" "~/.emacs.d/lisp/init-local.el" "~/.emacs.d/org-clock-save.el" "~/.emacs.d/custom.el"))
+(setq-default counsel-git-grep-cmd-history '("git --no-pager grep --full-name -n --no-color -i -e \"%s\""))
+(setq-default occur-collect-regexp-history '("\\1"))
+(setq-default serial-name-history '("/dev/ttys0"))
+(setq-default serial-speed-history '("9600" "1200" "2400" "4800" "14400" "19200" "28800" "38400" "57600" "115200"))
+(setq-default slime-connect-host-history '("127.0.0.1"))
+(setq-default slime-connect-port-history '("4005"))
